@@ -1,2 +1,5 @@
-# pythonfordataanalysis
-This is my repo for all of my python work
+# Python for Data Analysis
+
+This repo consist of the following
+  . Project 1: Analysing Sales Data
+  . Project 2:
