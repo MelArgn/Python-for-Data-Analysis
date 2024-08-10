@@ -7,5 +7,8 @@ The primary objective of this project is to analyze sales data to gain insights 
   ### Data Preparation
    + Data Cleaning: Removed rows with missing values, particularly focusing on the 'Amount' column to ensure accurate analysis.
    + Data Exploration: Conducted initial exploration to understand data structure and types, and to identify any anomalies or missing information.
-     
+  ### Deliverables
+      Reports:
+      + Average sales by category and status (Excel file)
+      + Total sales by shipment and fulfillment type (Excel file)   
  + Project 2:
