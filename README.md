@@ -18,4 +18,4 @@ This analysis provides valuable insights into the sales performance across diffe
 
 Code for project 1: amazonproject.py
 
- + Project 2:
+ 
