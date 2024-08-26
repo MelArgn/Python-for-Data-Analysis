@@ -123,7 +123,7 @@ Use of custom functions and classes for data categorization and analysis
   
 This project demonstrates proficiency in data analysis, visualization, and Python programming, providing insights into loan risk assessment and borrower characteristics for LendingClub.
 
-Code for project 3: Code for project 2: loan_analysis_script.py
+Code for project 3: loan_analysis_script.py
 
 
  
