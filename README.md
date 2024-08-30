@@ -2,7 +2,7 @@
 This is my repo for all my Python work. 
 
 This repo consist of the following
- ## Project Title: Analysing Sales Data
+ # Project Title: Analysing Sales Data
 
  ### Objective
 The primary objective of this project is to analyze sales data to gain insights into sales performance across various dimensions, including sales amounts, product categories, and fulfillment methods. The analysis will address specific questions related to sales transactions and provide aggregated insights.
@@ -16,10 +16,10 @@ The primary objective of this project is to analyze sales data to gain insights 
  ### Conclusion
 This analysis provides valuable insights into the sales performance across different dimensions. The findings can be used to inform strategic decisions related to inventory management, marketing, and sales strategies. Further analysis can be conducted to explore additional dimensions or trends over time.
 
-Code for project 1: amazonproject.py
+## Analysing Sales Data: amazonproject.py
 
 
-## Project Title: E-commerce Data Analysis and Visualization
+# Project Title: E-commerce Data Analysis and Visualization
 
 **Project Overview:**
 This project involves analyzing and visualizing e-commerce data from multiple sources, including orders, payments, and customer information. The goal is to gain insights into payment patterns, customer behavior, and overall business performance.
@@ -68,9 +68,9 @@ This project involves analyzing and visualizing e-commerce data from multiple so
 
 This project demonstrates proficiency in data handling, analysis, and visualization using Python, providing valuable insights for e-commerce business decision-making.
 
-Code for project 2: olisanalytics.py
+## Code for E-commerce Data Analysis and Visualization: olisanalytics.py
 
-## Project Title: LendingClub Loan Analysis and Risk Assessment
+# Project Title: LendingClub Loan Analysis and Risk Assessment
 
 **Project Overview:**
 This project involves analyzing loan data from LendingClub to predict borrower repayment likelihood and assess loan risk. The analysis includes data preprocessing, exploratory data analysis, and visualization of key loan attributes and risk factors.
@@ -123,41 +123,45 @@ Use of custom functions and classes for data categorization and analysis
   
 This project demonstrates proficiency in data analysis, visualization, and Python programming, providing insights into loan risk assessment and borrower characteristics for LendingClub.
 
-Code for project 3: loan_analysis_script.py
+## Code for LendingClub Loan Analysis and Risk Assessment: loan_analysis_script.py
 
 
-##Project Title: Sales Analysis for Value Inc
+# Project Title: Sales Analysis for Value Inc
 
 **Project Overview:** This project involves analyzing sales data for Value Inc, a retail store that sells household items globally in bulk. The goal is to provide a comprehensive sales dashboard that includes insights into monthly costs, profits, and top-selling products. The data is sourced from an Excel sheet provided by the Sales Manager, who requires detailed reporting on sales metrics.
 
-**Data Sources:**
+## Data Sources:
 
-value_inc_seasons.csv: Contains seasonal data related to sales.
+**value_inc_seasons.csv:** Contains seasonal data related to sales.
 transaction2.csv: Includes transaction-level data for sales analysis.
 
-**Data Preparation:**
+## Data Preparation:
 
-Import Libraries: Used libraries include pandas, seaborn, numpy, matplotlib, and datetime.
-Load Data: Read the CSV files value_inc_seasons.csv and transaction2.csv into pandas DataFrames.
-Explore DataFrames:
+**Import Libraries:** Used libraries include pandas, seaborn, numpy, matplotlib, and datetime.
+
+**Load Data:** Read the CSV files value_inc_seasons.csv and transaction2.csv into pandas DataFrames.
+
+## Explore DataFrames:
 Display the first and last few rows of the datasets.
 Generate descriptive statistics for a basic understanding of data distributions and summaries.
 Check data types and null values with info().
 
-#Analysis and Calculations:
+## Analysis and Calculations:
 
 **Cost and Profit Calculations:**
 Calculate CostPerTransaction, SalesPerTransaction, ProfitPerTransaction, and Markup.
 Add these calculated columns to the main DataFrame for comprehensive transaction-level analysis.
-Date Manipulation:
+
+**Date Manipulation:**
 Combine 'Day', 'Month', and 'Year' columns into a single 'Date' column.
 Convert individual date components into strings before concatenation.
-Client Data Processing:
+
+**Client Data Processing:**
 Split the ClientKeywords column into ClientAge, ClientType, and LengthofContract.
 Clean new columns by removing unnecessary characters.
 Drop the original ClientKeywords column post-split.
 
-#Data Transformation:
+# Data Transformation:
 
 **Data Cleaning:**
 Convert item descriptions to lowercase for consistency.
@@ -166,7 +170,6 @@ Drop unnecessary columns ('Year', 'Month', 'Day') post-merging.
 
 **Export Data:**
 Save the cleaned and transformed data into a CSV file named ValueInc_Clean.csv.
-
 
 **Data Manipulation and Cleaning:** Several steps involving pandas operations to transform raw data into a structured format for analysis.
 Calculations: Includes profit calculations, transaction costs, and markup percentages.
@@ -185,7 +188,7 @@ Create a sales dashboard to present cost, profit, and top-selling product data d
 Implement monthly and seasonal trend analysis to identify sales patterns.
 This project showcases the ability to preprocess and analyze sales data effectively, providing actionable insights for Value Inc's sales team.
 
-Code File: valueinc_sales.py
+## Code for Sales Analysis for Value Inc: valueinc_sales.py
 
 
  
