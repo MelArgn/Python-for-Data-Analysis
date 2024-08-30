@@ -126,4 +126,66 @@ This project demonstrates proficiency in data analysis, visualization, and Pytho
 Code for project 3: loan_analysis_script.py
 
 
+##Project Title: Sales Analysis for Value Inc
+
+**Project Overview:** This project involves analyzing sales data for Value Inc, a retail store that sells household items globally in bulk. The goal is to provide a comprehensive sales dashboard that includes insights into monthly costs, profits, and top-selling products. The data is sourced from an Excel sheet provided by the Sales Manager, who requires detailed reporting on sales metrics.
+
+**Data Sources:**
+
+value_inc_seasons.csv: Contains seasonal data related to sales.
+transaction2.csv: Includes transaction-level data for sales analysis.
+
+**Data Preparation:**
+
+Import Libraries: Used libraries include pandas, seaborn, numpy, matplotlib, and datetime.
+Load Data: Read the CSV files value_inc_seasons.csv and transaction2.csv into pandas DataFrames.
+Explore DataFrames:
+Display the first and last few rows of the datasets.
+Generate descriptive statistics for a basic understanding of data distributions and summaries.
+Check data types and null values with info().
+
+#Analysis and Calculations:
+
+**Cost and Profit Calculations:**
+Calculate CostPerTransaction, SalesPerTransaction, ProfitPerTransaction, and Markup.
+Add these calculated columns to the main DataFrame for comprehensive transaction-level analysis.
+Date Manipulation:
+Combine 'Day', 'Month', and 'Year' columns into a single 'Date' column.
+Convert individual date components into strings before concatenation.
+Client Data Processing:
+Split the ClientKeywords column into ClientAge, ClientType, and LengthofContract.
+Clean new columns by removing unnecessary characters.
+Drop the original ClientKeywords column post-split.
+
+#Data Transformation:
+
+**Data Cleaning:**
+Convert item descriptions to lowercase for consistency.
+Merge seasons data with transaction data on the 'Month' column.
+Drop unnecessary columns ('Year', 'Month', 'Day') post-merging.
+
+**Export Data:**
+Save the cleaned and transformed data into a CSV file named ValueInc_Clean.csv.
+
+
+**Data Manipulation and Cleaning:** Several steps involving pandas operations to transform raw data into a structured format for analysis.
+Calculations: Includes profit calculations, transaction costs, and markup percentages.
+Data Merging: Merges multiple datasets to provide a holistic view of sales performance.
+Technical Implementation:
+
+**Python Libraries Used:** pandas, seaborn, numpy, matplotlib, datetime.
+
+**Data Manipulation Techniques:** Importing data, cleaning, splitting columns, creating new calculated fields, and merging datasets.
+Visualization Preparation: Data is prepared for future visualization using seaborn and matplotlib.
+
+**Next Steps:**
+
+Develop visualizations for key sales metrics.
+Create a sales dashboard to present cost, profit, and top-selling product data dynamically.
+Implement monthly and seasonal trend analysis to identify sales patterns.
+This project showcases the ability to preprocess and analyze sales data effectively, providing actionable insights for Value Inc's sales team.
+
+Code File: valueinc_sales.py
+
+
  
